@@ -12,7 +12,7 @@ function validateAction() {
 }
 
 function define() {
-    var term = document.getElementById("term").value;
+    var term = document.getElementById("term").value.split(' ')[0];
     var url = "http://google.com#q=define:" + term;
     if (term != "") {
         window.open(url);

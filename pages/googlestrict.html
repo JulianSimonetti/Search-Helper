@@ -15,9 +15,13 @@
     <input id="strict" onkeydown="validateActionStrict()" onkeyup="hasClicked = false" autofocus="autofocus" />
     <div class="lv3">(séparer les expressions par des virgules)</div>
     <br />
-    <div class="lv3">Eventuellement, termes relatifs : </div>
-    <input id="relative" onkeydown="validateActionRelative()" onkeyup="hasClicked = false"/>
-    <hr style="visibility: hidden"/>
+    <div class="lv3">Termes relatifs (facultatifs) : </div>
+    <input id="relative" onkeydown="validateActionRelative()" onkeyup="hasClicked = false" />
+    <hr style="visibility: hidden" />
+    <br />
+    <div class="lv3">Site internet (facultatif) : </div>
+    <input id="site" onkeydown="validateActionSite()" onkeyup="hasClicked = false" />
+    <hr style="visibility: hidden" />
     <br />
     <button onclick="goSearchStrict()">Rechercher</button>
 </html>

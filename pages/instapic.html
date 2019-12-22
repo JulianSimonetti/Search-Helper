@@ -11,8 +11,11 @@
 <body>
     <button class="back" onclick="window.location.href='../index.html'">Retour au menu principal</button>
     <div class="titre">Photo de profil Instagram</div>
-    <div class="lv2">Entrer le nom d'utilisateur : </div>
-    <input id="username" onkeydown="validateAction()" onkeyup="hasClicked = false" autofocus="autofocus"/>
-    <button onclick="instagram()">Valider</button>
+    <form>
+        <div class="lv2">Entrer le nom d'utilisateur : </div>
+        <input type="search" id="username" onkeydown="validateAction()" onkeyup="hasClicked = false" autofocus="autofocus" />
+        <button onclick="instagram()">Valider</button>
+    </form>
+    <footer>Julian Seraph, 2019</footer>
 </body>
 </html>

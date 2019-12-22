@@ -4,6 +4,15 @@
     color: #ffffff
 }
 
+footer {
+    font-family: 'Liberation Sans', sans-serif;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
 .coord {
     font-family: 'Liberation Sans', sans-serif;
     font-size: 12pt;

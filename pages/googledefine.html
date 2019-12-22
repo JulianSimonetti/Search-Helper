@@ -11,8 +11,11 @@
 <body>
     <button class="back" onclick="window.location.href='../index.html'">Retour au menu principal</button>
     <div class="titre">Définition de terme</div>
-    <div class="lv2">Entrer un terme : </div>
-    <input id="term" onkeydown="validateAction()" onkeyup="hasClicked = false" autofocus="autofocus"/>
-    <button onclick="define()">Rechercher</button>
+    <form>
+        <div class="lv2">Entrer un terme : </div>
+        <input type="search" id="term" onkeydown="validateAction()" onkeyup="hasClicked = false" autofocus="autofocus" />
+        <button onclick="define()">Rechercher</button>
+    </form>
+    <footer>Julian Seraph, 2019</footer>
 </body>
 </html>

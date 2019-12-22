@@ -11,17 +11,21 @@
 <body>
     <button class="back" onclick="window.location.href='../index.html'">Retour au menu principal</button>
     <div class="titre">Recherche Google : termes exacts</div>
-    <div class="lv2">Insérer des expressions exactes : </div>
-    <input id="strict" onkeydown="validateActionStrict()" onkeyup="hasClicked = false" autofocus="autofocus" />
-    <div class="lv3">(séparer les expressions par des virgules)</div>
-    <br />
-    <div class="lv3">Termes relatifs (facultatifs) : </div>
-    <input id="relative" onkeydown="validateActionRelative()" onkeyup="hasClicked = false" />
-    <hr style="visibility: hidden" />
-    <br />
-    <div class="lv3">Site internet (facultatif) : </div>
-    <input id="site" onkeydown="validateActionSite()" onkeyup="hasClicked = false" />
-    <hr style="visibility: hidden" />
-    <br />
-    <button onclick="goSearchStrict()">Rechercher</button>
+    <form>
+        <div class="lv2">Insérer des expressions exactes : </div>
+        <input type="search" id="strict" onkeydown="validateActionStrict()" onkeyup="hasClicked = false" autofocus="autofocus" />
+        <div class="lv3">(séparer les expressions par des virgules)</div>
+        <br />
+        <div class="lv3">Termes relatifs (facultatifs) : </div>
+        <input type="search" id="relative" onkeydown="validateActionRelative()" onkeyup="hasClicked = false" />
+        <hr style="visibility: hidden" />
+        <br />
+        <div class="lv3">Site internet (facultatif) : </div>
+        <input type="search" id="site" onkeydown="validateActionSite()" onkeyup="hasClicked = false" />
+        <hr style="visibility: hidden" />
+        <br />
+        <button onclick="goSearchStrict()">Rechercher</button>
+    </form>
+    <footer>Julian Seraph, 2019</footer>
+</body>
 </html>

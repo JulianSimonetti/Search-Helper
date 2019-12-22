@@ -1,0 +1,23 @@
+﻿<!DOCTYPE html>
+
+<html lang="fr" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Search Helper</title>
+    <link rel="stylesheet" media="screen" type="text/css" title="style" href="../style/main.css" />
+    <link rel="icon" href="../assets/staricon.png" />
+    <script src="../js/googlestrict.js"></script>
+</head>
+<body>
+    <button class="back" onclick="window.location.href='../index.html'">Retour au menu principal</button>
+    <div class="titre">Recherche Google : termes exacts</div>
+    <div class="lv2">Insérer des expressions exactes : </div>
+    <input id="strict" onkeydown="validateActionStrict()" onkeyup="hasClicked = false" autofocus="autofocus" />
+    <div class="lv3">(séparer les expressions par des virgules)</div>
+    <br />
+    <div class="lv3">Eventuellement, termes relatifs : </div>
+    <input id="relative" onkeydown="validateActionRelative()" onkeyup="hasClicked = false"/>
+    <hr style="visibility: hidden"/>
+    <br />
+    <button onclick="goSearchStrict()">Rechercher</button>
+</html>

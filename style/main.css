@@ -76,6 +76,13 @@ button:active {
     margin-bottom: 10px;
 }
 
+.lv3 {
+    font-family: 'Liberation Sans', sans-serif;
+    font-size: 11pt;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
 .categ {
     font-family: 'Liberation Sans', sans-serif;
     font-size: 14pt;

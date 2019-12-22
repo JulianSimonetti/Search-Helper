@@ -16,6 +16,7 @@ function define() {
     var url = "http://google.com#q=define:" + term;
     if (term != "") {
         window.open(url);
+        document.getElementById("term").value = "";
     }
     return;
 }

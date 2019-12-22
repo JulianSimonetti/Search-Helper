@@ -16,6 +16,7 @@ function instagram() {
     var url = "http://www.instadp.com/fullsize/" + username;
     if (username != "") {
         window.open(url);
+        document.getElementById("username").value = "";
     }
     return;
 }

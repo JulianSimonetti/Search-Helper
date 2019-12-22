@@ -16,6 +16,7 @@ function goSearch() {
     var url = "http://google.com#q=" + search;
     if (search != "") {
         window.open(url);
+        document.getElementById("search").value = "";
     }
     return;
 }

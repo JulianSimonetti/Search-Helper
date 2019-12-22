@@ -1,0 +1,102 @@
+﻿body {
+    /*font-family: 'Liberation Sans', sans-serif;
+    font-size: 12pt;*/
+    color: #ffffff
+}
+
+.coord {
+    font-family: 'Liberation Sans', sans-serif;
+    font-size: 12pt;
+}
+
+input {
+    height: 40px;
+    font-family: 'Liberation Sans', sans-serif;
+    font-size: 12pt;
+    font-weight: bold;
+    text-align: center;
+    color: #ffffff;
+    background: #42aeff;
+    border-color: #42aeff;
+    border-radius: 8px;
+}
+
+::placeholder {
+    color: #ffffff;
+    opacity: 1;
+}
+
+button {
+    display: inline-block;
+    border: none;
+    padding: 1rem 2rem;
+    margin: 0;
+    text-decoration: none;
+    background: #0069ed;
+    color: #ffffff;
+    font-family: 'Liberation Sans', sans-serif;
+    font-size: 1rem;
+    cursor: pointer;
+    text-align: center;
+    transition: background 250ms ease-in-out, transform 150ms ease;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border-radius: 8px;
+}
+
+button:hover,
+button:focus {
+    background: #0053ba;
+}
+
+button:focus {
+    outline: 1px solid #fff;
+    outline-offset: -4px;
+}
+
+button:active {
+    transform: scale(0.99);
+}
+
+.titre {
+    font-family: 'Trebuchet MS';
+    font-size: 18pt;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 25px;
+}
+
+.lv2 {
+    font-family: 'Liberation Sans', sans-serif;
+    font-size: 16pt;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.categ {
+    font-family: 'Liberation Sans', sans-serif;
+    font-size: 14pt;
+    font-style: italic;
+    font-weight: bold;
+    color: #053b64;
+    margin-bottom: -5px;
+}
+
+.imp {
+    font-family: 'Liberation Sans', sans-serif;
+    font-size: 12pt;
+    font-weight: bold;
+}
+
+li {
+    font-family: 'Liberation Sans', sans-serif;
+    font-size: 12pt;
+    margin-bottom: 5px;
+}
+
+html {
+    background-color: #000000;
+}

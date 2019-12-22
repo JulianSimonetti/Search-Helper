@@ -28,6 +28,7 @@ input {
     background: #42aeff;
     border-color: #42aeff;
     border-radius: 8px;
+    margin: 5px;
 }
 
 ::placeholder {
@@ -83,6 +84,7 @@ button:active {
     font-size: 16pt;
     margin-top: 5px;
     margin-bottom: 10px;
+    margin-left: 5px;
 }
 
 .lv3 {
@@ -90,6 +92,7 @@ button:active {
     font-size: 11pt;
     margin-top: 5px;
     margin-bottom: 10px;
+    margin-left: 5px;
 }
 
 .categ {

@@ -1,6 +1,5 @@
 var hasClicked = false;
 
-//function validateActionStrict() {
 function validateActionStrict(field) {
     document.getElementById(field).addEventListener('keydown', (e) => {
         if (e.key === 'Enter' && hasClicked == false) {
@@ -11,28 +10,6 @@ function validateActionStrict(field) {
 
     return;
 }
-
-//function validateActionRelative() {
-//    document.getElementById("relative").addEventListener('keydown', (e) => {
-//        if (e.key === 'Enter' && hasClicked == false) {
-//            goSearchStrict();
-//            hasClicked = true;
-//        }
-//    });
-
-//    return;
-//}
-
-//function validateActionSite() {
-//    document.getElementById("site").addEventListener('keydown', (e) => {
-//        if (e.key === 'Enter' && hasClicked == false) {
-//            goSearchStrict();
-//            hasClicked = true;
-//        }
-//    });
-
-//    return;
-//}
 
 function goSearchStrict() {
     const strict = document.getElementById("strict").value;
@@ -66,7 +43,7 @@ function goSearchStrict() {
     }
 
     query = ((sQuery + relative).trim() + ' ' + uQuery).trim();
- 
+
     var url = "https://google.com#q=" + query.replace("\"\"", "");
     window.open(url);
     return;

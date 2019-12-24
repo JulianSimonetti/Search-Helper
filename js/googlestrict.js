@@ -7,7 +7,6 @@ function validateActionStrict(field) {
             hasClicked = true;
         }
     });
-
     return;
 }
 
